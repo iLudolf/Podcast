@@ -10,7 +10,7 @@ const currentData = format(new Date(),'EEEEEE, d MMMM', {
 });    
     return(
         <header className={styles.headerContainer}>
-            <img src="logo.svg" alt="Podcastr"></img>
+            <img src="/logo.svg" alt="Podcastr"></img>
             <p>O melhor para você ouvir, sempre!</p>
             <span>{currentData}</span>
         </header>
